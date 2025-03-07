@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Dark Mode Theme */
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bb86fc; /* Accent color */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ffffff69;
+  }
+  
+  .game-info {
+    margin: 2rem 0;
+  }
+  
+  .game-info p {
+    font-size: 1.4rem;
+    color: #03dac6; /* Accent color */
+  }
+  
+  button {
+    padding: 0.8rem 2rem;
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9a67ea;
+  }
+
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  .instructions {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 1.5rem;
+  }
+  
+  /* Previous styles remain the same */
+  
+  /* New criteria box styling */
+  .criteria-box {
+    background-color: #2d2d2d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+  
+  .criterion {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    font-size: 1.1rem;
+    color: #bb86fc;
+  }
+  
+  .value {
+    font-size: 1.3rem;
+    color: #03dac6;
+    font-weight: bold;
+  }
+  
+  .instructions {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 1.5rem;
+  }
